@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "test docker dev environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbgrabbag/docker-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbgrabbag/docker-dev/issues"
+  },
+  "homepage": "https://github.com/bbgrabbag/docker-dev#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
